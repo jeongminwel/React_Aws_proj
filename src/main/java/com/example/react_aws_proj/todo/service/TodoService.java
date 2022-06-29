@@ -1,5 +1,7 @@
-package com.example.react_aws_proj.todo;
+package com.example.react_aws_proj.todo.service;
 
+import com.example.react_aws_proj.todo.model.TodoEntity;
+import com.example.react_aws_proj.todo.persistence.TodoRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

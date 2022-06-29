@@ -1,5 +1,6 @@
-package com.example.react_aws_proj.todo;
+package com.example.react_aws_proj.todo.dto;
 
+import com.example.react_aws_proj.todo.model.TodoEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

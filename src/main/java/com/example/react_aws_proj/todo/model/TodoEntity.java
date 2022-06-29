@@ -1,4 +1,4 @@
-package com.example.react_aws_proj.todo;
+package com.example.react_aws_proj.todo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,5 +1,9 @@
-package com.example.react_aws_proj.todo;
+package com.example.react_aws_proj.todo.controller;
 
+import com.example.react_aws_proj.todo.model.TodoEntity;
+import com.example.react_aws_proj.todo.dto.ResponseDTO;
+import com.example.react_aws_proj.todo.dto.TodoDTO;
+import com.example.react_aws_proj.todo.service.TodoService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
