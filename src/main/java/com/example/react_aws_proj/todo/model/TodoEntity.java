@@ -15,8 +15,8 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Entity
-@Table(name = "Todo")
+@Entity(name = "Todo")
+@Table
 public class TodoEntity {
     @Id
     @GeneratedValue(generator = "system-uuid")
